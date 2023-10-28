@@ -1,0 +1,86 @@
+Task1:
+Q1:Declare four variables without assigning values and print them in console
+Ans: var name; or: let Name; After the declaration, the variable has no value technically it is undefined.
+
+Q2:How to get value of the variable myvar as output
+ans: var a = myvar;
+console.log(a)
+
+Q4:Declare variables to store your first name, last name, marital status, country and age in single lines
+var obj = {
+    firstname: "abc",
+    lastname: "D",
+    maritalstatus: "Married" ,
+    country: "india",
+    age:25
+  }
+  console.log(obj)
+  
+  
+  Q5:Declare variables and assign string, boolean, undefined and null data types
+  var a = "name"
+var b = 25
+if(a=b)
+{console.log(true);}
+else
+{console.log(false);}
+
+
+Q6:Convert the string to integer
+using by parseInt() and also Plus sign(+)
+
+Q7:Write 6 statement which provide truthy & falsey values.
+var a = [1,2,4,5,8]
+if(a%2===0)
+{console.log(true);}
+else
+
+TASK 2: 
+Q1:Square of a number
+var b=a;
+ Math.sqrt(a * a );
+
+ Q2:Swapping 2 numbers
+ temp = a;
+a = b;
+b = temp;
+
+Q3:Addition of 3 numbers
+declare a variable a,b,c 
+console.log(a+b+c)
+
+Q4:Celsius to Fahrenheit conversion
+°F = °C × (9/5) + 32 - formula
+consider  an Celsius is 3
+(3*(9/5)+(32))
+
+Q5:Meter to miles
+To multiply the number by 1609.34. For example, to convert 5 miles into meters,
+ you need to multiply it with 1609.34
+
+
+Q6:Pounds to kg
+Multiply the given 5 pounts by 0.45359237 kg. Therefore, 5 pounts is approximately equal to 2.26796185 kg.
+
+Q7:Calculate Batting Average
+It is calculated by dividing the total number of runs scored by a batsman 
+by the number of times they have been out
+
+Q9:Power of any number x ^ y.
+Math.pow(x,y)
+
+Q10:Calculate Simple Interest
+A = P (1 + rt)
+A	=	final amount
+P	=	initial principal balance
+r	=	annual interest rate
+t	=	time (in years)
+
+
+
+
+
+
+
+
+
